@@ -68,7 +68,7 @@
 GEMINI_API_KEY=your_gemini_api_key
 NOTION_TOKEN=your_notion_integration_token
 NOTION_DATABASE_ID=your_notion_database_id
-
+```
 2. 패키지 설치 및 웹 서버 구동
 
 # 가상환경 내부 필수 패키지 설치
