@@ -88,7 +88,7 @@ docker build -t tech-trend-agent .
 # 2. 환경변수 파일을 주입하여 컨테이너 독립 구동 (배포 모드)
 docker run -d -p 8000:8000 --env-file .env --name trend-bot tech-trend-agent
 
-3. API 명세서 및 파이프라인 테스트
+# 3. API 명세서 및 파이프라인 테스트
 메인 API 헬스체크: http://127.0.0.1:8000/
 <<<<<<< HEAD
 인터랙티브 Swagger 대시보드: http://127.0.0.1:8000/docs
