@@ -84,7 +84,6 @@ NOTION_DATABASE_ID=your_notion_database_id
 2. 도커 컨테이너 빌드 및 실행 (Dockerizing)
 # 1. 도커 이미지 빌드
 docker build -t tech-trend-agent .
->>>>>>> origin/master
 
 # 2. 환경변수 파일을 주입하여 컨테이너 독립 구동 (배포 모드)
 docker run -d -p 8000:8000 --env-file .env --name trend-bot tech-trend-agent
@@ -94,5 +93,3 @@ docker run -d -p 8000:8000 --env-file .env --name trend-bot tech-trend-agent
 <<<<<<< HEAD
 인터랙티브 Swagger 대시보드: http://127.0.0.1:8000/docs
 =======
-
-인터랙티브 Swagger 대시보드: http://127.0.0.1:8000/docs
