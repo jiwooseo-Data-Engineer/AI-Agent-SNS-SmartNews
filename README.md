@@ -1,4 +1,4 @@
-# 🤖 Real-Time Tech Trend Analysis & Automated Newsletter Agent (v1.2.0)
+# 🤖 Real-Time Tech Trend Analysis & Automated Newsletter Agent
 > **FastAPI, SQLite 및 APScheduler 기반의 무인 자동화 테크 뉴스레터 파이프라인 시스템**
 
 본 프로젝트는 외부 데이터 소스(RSS)로부터 실시간 기술 트렌드 데이터를 안정적으로 수집(Data Ingestion)하고, 서버 내부의 로컬 가상 관계형 데이터베이스(SQLite RDB)를 통해 데이터 멱등성(Idempotency)을 확보하며, 생성형 AI(Gemini Pro)와 백그라운드 스케줄러를 결합해 무인 배치(Batch) 환경에서 뉴스레터를 자동 생성 및 노션 데이터베이스로 자동 서빙하는 **안정적인 엔드투엔드(End-to-End) 데이터 파이프라인 백엔드 시스템**입니다.
